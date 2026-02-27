@@ -67,10 +67,12 @@ Porta: (Digite 3389).
 Nome: (Escolha o seu nickname para o chat).
 
 3. Comece a conversar! Para sair da sala, basta digitar o comando /sair.
+   
+---
 
-##📂 Estrutura de Arquivos
-ServidorChat.java: Classe responsável por inicializar o servidor na porta 3389, aceitar conexões via ServerSocket e delegar cada conexão para a classe interna ClienteHandler.
+## 📂 Estrutura de Arquivos
+* **ServidorChat.java: Classe responsável por inicializar o servidor na porta 3389, aceitar conexões via ServerSocket e delegar cada conexão para a classe interna ClienteHandler.
 
-ClienteChat.java: Classe que estabelece a conexão Socket com o servidor, possui um loop principal para captura de digitação (envio de mensagens) e uma Thread secundária rodando em paralelo para escutar as mensagens recebidas.
+* **ClienteChat.java: Classe que estabelece a conexão Socket com o servidor, possui um loop principal para captura de digitação (envio de mensagens) e uma Thread secundária rodando em paralelo para escutar as mensagens recebidas.
 
-Arquivos .xml e .iml (ignorados pelo Git): Configurações de ambiente geradas pela IDE (IntelliJ IDEA).
+* **Arquivos .xml e .iml (ignorados pelo Git): Configurações de ambiente geradas pela IDE (IntelliJ IDEA).
