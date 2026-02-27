@@ -55,11 +55,8 @@ Abra novos terminais para cada cliente que deseja conectar (podem estar na mesma
 
 1. Compile e execute a classe do cliente:
 
-Bash
-
 javac ClienteChat.java
 java ClienteChat
-
 2. O sistema pedirá as seguintes informações:
 
 IP do servidor: (Digite o IP fornecido pelo terminal do Servidor).
