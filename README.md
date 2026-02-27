@@ -71,8 +71,8 @@ Nome: (Escolha o seu nickname para o chat).
 ---
 
 ## 📂 Estrutura de Arquivos
-* **ServidorChat.java: Classe responsável por inicializar o servidor na porta 3389, aceitar conexões via ServerSocket e delegar cada conexão para a classe interna ClienteHandler.
+*   ServidorChat.java: Classe responsável por inicializar o servidor na porta 3389, aceitar conexões via ServerSocket e delegar cada conexão para a classe interna ClienteHandler.
 
-* **ClienteChat.java: Classe que estabelece a conexão Socket com o servidor, possui um loop principal para captura de digitação (envio de mensagens) e uma Thread secundária rodando em paralelo para escutar as mensagens recebidas.
+*   ClienteChat.java: Classe que estabelece a conexão Socket com o servidor, possui um loop principal para captura de digitação (envio de mensagens) e uma Thread secundária rodando em paralelo para escutar as mensagens recebidas.
 
-* **Arquivos .xml e .iml (ignorados pelo Git): Configurações de ambiente geradas pela IDE (IntelliJ IDEA).
+*   Arquivos .xml e .iml (ignorados pelo Git): Configurações de ambiente geradas pela IDE (IntelliJ IDEA).
