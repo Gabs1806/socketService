@@ -50,7 +50,7 @@ O servidor **deve ser iniciado primeiro** para que a porta de comunicação seja
 
 3. O terminal exibirá o IP local da máquina e a Porta (padrão: 3389). Anote essas informações.
 
-Passo 2: Iniciar os Clientes
+### Passo 2: Iniciar os Clientes
 Abra novos terminais para cada cliente que deseja conectar (podem estar na mesma máquina ou em computadores diferentes na mesma rede local).
 
 1. Compile e execute a classe do cliente:
@@ -68,7 +68,7 @@ Nome: (Escolha o seu nickname para o chat).
 
 3. Comece a conversar! Para sair da sala, basta digitar o comando /sair.
 
-📂 Estrutura de Arquivos
+##📂 Estrutura de Arquivos
 ServidorChat.java: Classe responsável por inicializar o servidor na porta 3389, aceitar conexões via ServerSocket e delegar cada conexão para a classe interna ClienteHandler.
 
 ClienteChat.java: Classe que estabelece a conexão Socket com o servidor, possui um loop principal para captura de digitação (envio de mensagens) e uma Thread secundária rodando em paralelo para escutar as mensagens recebidas.
